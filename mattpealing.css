@@ -1,0 +1,106 @@
+body {
+	background: #000;
+	text-align: center;
+	padding: 50px 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+	color: #fff;
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-size: 16px;
+	font-style: normal;
+	font-variation-settings: "slnt" 0;
+	margin: 0.5em 0;
+	padding-inline-start: 0;
+}
+
+h1,
+h2 {
+	margin-top: 1em;
+}
+
+h1 {
+	font-size: 21px;
+}
+
+h2 {
+	font-size: 16px;
+	margin-top: 0;
+}
+
+a {
+	color: #fff;
+}
+
+header {
+	margin-bottom: 50px;
+}
+
+.email {
+	display: block;
+}
+
+.nav,
+footer {
+	font-size: 14px;
+	margin: 30px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.nav a {
+	display: block;
+	padding: 5px 10px;
+}
+
+#feed-work {
+	position: relative;
+	margin: 0 auto;
+	min-height: 400px;
+	max-width: 1140px;
+}
+/*
+#feed-work::before {
+	content: "Loading...";
+	position: absolute;
+	top: 50%;
+	left: calc(50% + 15px);
+	transform: translate(-50%, -50%);
+	font-size: 16px;
+}
+
+#feed-work::after {
+	content: "";
+	position: absolute;
+	top: 48%;
+	left: calc(50% - 55px);
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: white;
+	animation: pulse 0.1s infinite alternate;
+}
+
+@keyframes pulse {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+}
+*/
